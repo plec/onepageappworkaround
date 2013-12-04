@@ -1,0 +1,9 @@
+Choisissez une activité:
+
+<select id="activities" name="activities" size="1">
+ {{#each activities}}
+<option value="{{id}}">{{type}} - {{date}}</option>
+    {{/each}}
+</select>
+<div id="activity-details"></div>
+

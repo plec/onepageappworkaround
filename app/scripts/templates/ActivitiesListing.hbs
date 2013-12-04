@@ -1,0 +1,9 @@
+Choisissez une activité:
+
+<select  id="activities" name="activities" size="1">
+	<option value="-1"><i>Choisissez une activité</i></option>
+	<option data-each-activity="activities.models" data-value="activity.id" data-text="activity:getDescription"></option>
+</select>
+<div id="activity-details"></div>
+
+<div id="charts"></div>
